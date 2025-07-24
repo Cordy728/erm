@@ -2,9 +2,11 @@
 
 echo "Installing backend dependencies..."
 cd backend 
-echo npm install 
+npm init -y
 
-echo "Installing frontend dependencies..."
-cd ../frontend && npm create vite@latest
+echo "Creating vite project"
+cd frontend
+npm create vite@latest
+
 
 echo "Done ✅"
