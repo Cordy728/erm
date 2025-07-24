@@ -1,0 +1,11 @@
+# Ignore dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# Optional editor/system junk
+.DS_Store
+*.log
+
+# Optional environment files
+frontend/.env
+backend/.env
